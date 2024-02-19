@@ -29,3 +29,24 @@ class Card():
 class player():
     def __init__(self):
         self.hand = []
+def main():
+    players = []
+    spentCards = []
+    
+    while True:
+        try:
+            numPlayers = int(input("Enter the number of players: ")
+            break
+        except ValueError:
+            print("Invalid number of players\n")
+                     
+    for i in range(0, numPlayers):
+        players.append(Player())
+    for i in players:
+        while True:
+            drawnCard = Card()
+            if drawnCard in spentCards:
+                pass
+            else:
+                break
+        i.hand.append(drawnCard)
