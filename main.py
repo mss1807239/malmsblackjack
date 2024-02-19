@@ -5,7 +5,7 @@ class Card():
 
         # Creates random card upon instatiation
         
-        card_values ={"Ace": None,
+        card_values ={"Ace": 11,
                       "2": 2,
                       "3": 3,
                       "4": 4,
